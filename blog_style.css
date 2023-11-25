@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./bg.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0rem;
+}
+
+div, h2, button {
+    background-color: #061117;
+    color: white;
+}
+
+.btn {
+    width: 100vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.btn button{
+    border: none;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn button:hover {
+    color: violet;
+}
+
